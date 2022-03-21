@@ -27,3 +27,8 @@ main{
 .art3{
     grid-area:art3 ;
 }
+
+
+footer{
+    grid-area: footer;
+}
