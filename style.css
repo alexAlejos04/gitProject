@@ -27,3 +27,45 @@ main{
 .art3{
     grid-area:art3 ;
 }
+
+/* =======header============= */
+header{
+    grid-area:header;
+    padding: 10px 20px;
+    box-shadow: 0px 2px 2px #ccc;
+}
+header h2{
+    color:rgb(57, 185, 57) ;
+    
+}
+
+ul{
+    list-style: none;
+}
+ul li{
+    padding:0px 10px;
+    color:rgb(41, 40, 40);
+}
+/* ========botones======= */
+
+.btn{
+    border-radius:6px;
+    background-color:transparent;
+    padding:10px 15px;
+    border: 1px solid #ccc;
+    font-family: sans-serif;
+    color:rgb(41, 40, 40);
+}
+
+/* ========= flex============= */
+.flex{
+    display: flex; 
+ }
+
+ .justify-conten-betw{
+     justify-content:space-between;
+ }
+
+ .aling-center{
+     align-items:center;
+ }
