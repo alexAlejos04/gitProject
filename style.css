@@ -10,5 +10,20 @@ main{
     font-size:20px;
     line-height:20px;
     text-align:left;
-    
+    display: grid;
+    grid-template-columns: repeat(3,fr);
+    grid-template-areas: "header header header"
+                         "art1 art2 art3"
+                         "footer footer footer" ;
+
+}
+
+.art1{
+    grid-area:art1 ;
+}
+.art2{
+    grid-area:art2 ;
+}
+.art3{
+    grid-area:art3 ;
 }
