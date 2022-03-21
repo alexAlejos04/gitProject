@@ -28,7 +28,6 @@ main{
     grid-area:art3 ;
 }
 
-/* =======header============= */
 header{
     grid-area:header;
     padding: 10px 20px;
@@ -69,3 +68,8 @@ ul li{
  .aling-center{
      align-items:center;
  }
+
+
+footer{
+    grid-area: footer;
+}
